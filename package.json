@@ -1,6 +1,12 @@
 {
   "name": "todo-node",
-  "version": "0.0.1",
+  "bin": {
+    "todo": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "version": "0.0.2",
   "main": "cli.js",
   "author": "liangyouwen <layouwen@gmail.com>",
   "license": "MIT",
