@@ -1,15 +1,12 @@
 const program = require("commander")
 
 program
-  .option("-x, --xxx", "fuck me")
+  .option("-x, --xxx", "what the x")
 program
   .command("add")
   .description("add a task")
-  .action((...args) => {
-    const words = args.slice(0, -1).join(" ")
-    console.log(words)
+  .action((x, y, k, l) => {
+    console.log(x, y, k, l)
   })
 
 program.parse(process.argv)
-
-// console.log(program.xxx)

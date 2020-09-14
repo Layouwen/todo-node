@@ -5,6 +5,6 @@
   "author": "liangyouwen <layouwen@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "commander": "^6.1.0"
+    "commander": "^3.0.2"
   }
 }
