@@ -5,8 +5,9 @@ program
 program
   .command("add")
   .description("add a task")
-  .action((x, y, k, l) => {
-    console.log(x, y, k, l)
+  .action((...args) => {
+    const words = args.slice(0, -1)
+    console.log(words)
   })
 
 program.parse(process.argv)
