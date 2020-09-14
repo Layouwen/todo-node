@@ -1,0 +1,10 @@
+{
+  "name": "todo-node",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "liangyouwen <layouwen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.1.0"
+  }
+}
