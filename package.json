@@ -5,6 +5,7 @@
   "author": "liangyouwen <layouwen@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "commander": "^3.0.2"
+    "commander": "^3.0.2",
+    "inquirer": "^7.3.3"
   }
 }

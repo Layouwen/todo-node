@@ -4,7 +4,7 @@ const p = require("path")
 const fs = require("fs")
 const dbPath = p.join(home, ".todo")
 
-export const db = {
+const db = {
   read(path = dbPath) {
     return new Promise((resolve, reject) => {
       fs.readFile(path, {flag: "a+"}, (error, data) => {
