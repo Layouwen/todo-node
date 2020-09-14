@@ -1,7 +1,7 @@
 {
   "name": "todo-node",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "cli.js",
   "author": "liangyouwen <layouwen@gmail.com>",
   "license": "MIT",
   "dependencies": {
