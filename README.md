@@ -15,3 +15,15 @@ yarn global add todo-node
 ```
 
 ## 使用方式
+
+### 添加新清单
+
+```bash
+todo add 清单名
+```
+
+### 清除所有清单
+
+```bash
+todo clear
+```
