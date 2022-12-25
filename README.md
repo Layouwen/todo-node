@@ -27,3 +27,19 @@ todo add 清单名
 ```bash
 todo clear
 ```
+
+## 3、本地调试
+
+```bash
+yarn link
+
+todo add 测试
+todo
+todo clear
+```
+
+或者
+
+```bash
+node cli.js
+````
